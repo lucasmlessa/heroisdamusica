@@ -77,7 +77,7 @@ body,
   }
   .jumbotron-heroes-lut {
     padding: 40px 30px 50%;
-    background: url(../img/herolut-sm.jpg) bottom center / 100% auto no-repeat #000000;
+    background: url(../img/herolut-sm.jpg) bottom center / 100% auto no-repeat #92313a;
   }
   .jumbotron-heroes-lut h1 {
     font-size: 3.2em;
@@ -99,7 +99,7 @@ body,
   .jumbotron-tedio-domina {
     padding: 50px 30px 20%;
     text-align: center;
-    background: url(../img/tedio-sm.jpg) bottom center / 100% auto no-repeat #000000;
+    background: url(../img/tedio-sm.jpg) bottom center / 100% auto no-repeat #3c4446;
   }
   .jumbotron-tedio-domina h1 {
     font-size: 3.6em;
@@ -350,7 +350,7 @@ body,
     text-align: center;
     padding: 0px 30px 10px !important;
     max-height: 830px;
-    background: url(../img/tedio.jpg) bottom center / 100% auto no-repeat #000000;
+    background: url(../img/tedio.jpg) bottom center / 100% auto no-repeat #3c4446;
   }
   .jumbotron-tedio-domina h1 {
     margin-top: 40%;
@@ -490,7 +490,7 @@ body,
     background: url(../img/homeheroes-sm.jpg) bottom center / 100% auto no-repeat #000000;
   }
   .jumbotron-heroes-lut {
-    background: url(../img/herolut.jpg) bottom center / 100% auto no-repeat #000000;
+    background: url(../img/herolut.jpg) bottom center / 100% auto no-repeat #92313a;
     padding-top: 100px;
   }
   .jumbotron-heroes-lut .btn {
@@ -505,7 +505,7 @@ body,
   }
   .jumbotron-tedio-domina {
     text-align: center;
-    background: url(../img/tedio.jpg) bottom center / 100% auto no-repeat #000000;
+    background: url(../img/tedio.jpg) bottom center / 100% auto no-repeat #474c4c;
   }
   .jumbotron-tedio-domina h1 {
     margin-top: 40%;
@@ -745,6 +745,130 @@ body,
   .jumbotron-poderes h1 {
     margin-top: 25%;
     font-size: 4.5em;
+    text-align: center;
+  }
+  .jumbotron-poderes p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .jumbotron-poderes .conf-call {
+    color: #ff7a03;
+  }
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  .jumbotron-tedio-domina {
+    padding: 50px 30px 20%;
+    text-align: center;
+    background: url(../img/tedio-sm.jpg) bottom center / 100% auto no-repeat #3c4446;
+  }
+  .jumbotron-tedio-domina h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  .jumbotron-tedio-domina p {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .jumbotron-his-vilao {
+    background: url(../img/vile-sm.jpg) bottom center / 100% auto no-repeat #0d2432;
+    padding: 30px 30px 70%;
+  }
+  .jumbotron-his-vilao h1 {
+    font-size: 3.6em;
+  }
+  .jumbotron-conheca {
+    background-color: #000;
+    padding: 20px 30px 10%;
+  }
+  .jumbotron-conheca .col-sm-6 {
+    min-height: 20px;
+  }
+  .jumbotron-conheca h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+  }
+  .jumbotron-conheca p {
+    margin-bottom: 10px;
+  }
+  .jumbotron-heroes-lut {
+    padding: 40px 30px 50%;
+    background: url(../img/herolut-sm.jpg) bottom center / 100% auto no-repeat #92313a;
+  }
+  .jumbotron-heroes-lut h1 {
+    font-size: 2.8em;
+  }
+  .jumbotron-heroes-lut .btn {
+    margin-top: 10px;
+  }
+  .jumbotron-home-power {
+    padding: 40px 30px 55%;
+    background: url(../img/homepowers-sm.jpg) bottom center / 100% auto no-repeat #000000;
+  }
+  .jumbotron-home-power h1 {
+    font-size: 2.2em;
+  }
+  .jumbotron-home-heroes {
+    padding: 40px 30px 40%;
+    background: url(../img/homeheroes-sm.jpg) bottom center / 100% auto no-repeat #5f994c;
+  }
+  .jumbotron-home-heroes .btn {
+    margin-top: 20px;
+  }
+  .jumbotron-conheca {
+    background-color: #000;
+    padding: 20px 30px 10%;
+  }
+  .jumbotron-conheca .col-sm-6 {
+    min-height: 20px;
+  }
+  .jumbotron-conheca h1 {
+    font-size: 2.4em;
+    margin-bottom: 0;
+  }
+  .jumbotron-conheca p {
+    margin-bottom: 10px;
+  }
+  .jumbotron-batafil {
+    background-color: #000;
+    padding: 25px 30px 12%;
+  }
+  .jumbotron-batafil p {
+    margin-bottom: 25px;
+  }
+  .jumbotron-batafil h1 {
+    font-size: 3em;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .jumbotron-compa {
+    padding: 30px 30px 5%;
+    background: url(../img/cards.png) bottom right / 95% auto no-repeat #80282f;
+  }
+  .jumbotron-compa h1 {
+    font-size: 2.2em;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .jumbotron-funca {
+    padding: 60px 30px 12%;
+    background: #20253A;
+  }
+  .jumbotron-funca .col-sm-7 {
+    min-height: 0;
+  }
+  .jumbotron-funca h1 {
+    font-size: 2.5em;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .jumbotron-poderes {
+    text-align: center;
+    background: url(../img/conhes.jpg) bottom center / 100% auto no-repeat #000000;
+    background-size: cover;
+    padding: 40px 30px 12%;
+  }
+  .jumbotron-poderes h1 {
+    font-size: 2.1em;
     text-align: center;
   }
   .jumbotron-poderes p {
