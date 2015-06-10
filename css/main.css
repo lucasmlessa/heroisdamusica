@@ -148,14 +148,23 @@ body,
     width: 100%;
     margin-bottom: 30px;
   }
-  .jumbotron-hero-play {
-    max-height: 440px;
+  .jumbotron-wallpaper {
+    background: url(../img/wallps.jpg) center center / 100% auto no-repeat #73170a;
+    padding: 60px 30px 12%;
   }
-  .jumbotron-hero-play h1 {
-    font-size: 3.6em;
+  .jumbotron-wallpaper h1 {
+    font-size: 3.7em;
   }
-  .jumbotron-hero-play .btn {
-    margin-top: 0px;
+  .jumbotron-wallpaper p {
+    margin-bottom: 15px;
+  }
+  .jumbotron-wallpaper a:hover {
+    opacity: .8;
+  }
+  .jumbotron-wallpaper img {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
   }
   .jumbotron-poderes {
     text-align: center;
@@ -576,6 +585,24 @@ body,
     opacity: .8;
   }
   .jumbotron-video img {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .jumbotron-wallpaper {
+    background: url(../img/wallps.jpg) center center / 100% auto no-repeat #73170a;
+    padding-top: 90px;
+    max-height: 710px;
+  }
+  .jumbotron-wallpaper h1 {
+    font-size: 3.7em;
+  }
+  .jumbotron-wallpaper a {
+    display: block;
+  }
+  .jumbotron-wallpaper a:hover {
+    opacity: .8;
+  }
+  .jumbotron-wallpaper img {
     display: block;
     margin-bottom: 10px;
   }
